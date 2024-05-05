@@ -1,0 +1,70 @@
+.Signup {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Signup h2 {
+    margin-bottom: 20px;
+  }
+  
+  .Signup form {
+    width: 100%;
+  }
+  
+  .Signup form div {
+    margin-bottom: 10px;
+  }
+  
+  .Signup form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .Signup form input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .Signup form button {
+    width:auto;
+    padding: 10px 20px;
+    background-color: #1161ee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Signup form button:hover {
+    background-color: #0d51b2;
+  }
+  
+  .Signup form .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .Signup .signup-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .Signup .signup-link a {
+    color: #1161ee;
+    text-decoration: none;
+  }
+  
+  .Signup .signup-link a:hover {
+    text-decoration: underline;
+  }
